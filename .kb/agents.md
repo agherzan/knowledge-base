@@ -27,7 +27,8 @@ The design of this structure has the following key goals:
 
 # Headers
 
-Every header used across the `.kb/*.md` files in this repository MUST be documented here to maintain semantic standardizations.
+The following are the ONLY top-level headers allowed across the `.kb/*.md` files in this repository, to maintain semantic standardization across projects.
+Sub-headers are okay.
 
 - _Preface_ - A brief introduction outlining the scope and relevance of a specific `*.md` file. This section MUST be at the top of every `.kb/*.md` file so agents can easily grep for it, and the last line of this section MUST be "Read the top-level `.kb/agents.md` file before continuing below." so rules are followed.
 - _Overview_ - High-level summary of the directory, subsystem or knowledge base layout at large. Do NOT use this to list files or directories.
