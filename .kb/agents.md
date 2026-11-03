@@ -60,3 +60,8 @@ IMPORTANT: Read the .kb/agents.md file.
 - **2026-09-24** - Enforced ordering of all headers. Minor tweaks for clarity.
 - **2026-06-08** - Public release.
 
+## Version updates
+
+Only when EXPLICITLY requested to update the version of the knowledge base, replace this file with:
+
+https://raw.githubusercontent.com/canonical/knowledge-base/refs/heads/main/.kb/agents.md
