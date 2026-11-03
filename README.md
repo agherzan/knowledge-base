@@ -1,17 +1,19 @@
-# Overview
+# The Knowledge Base
+
+## Overview
 
 This repository defines the Canonical convention to be used in our source code repositories to help agents read and write documentation into a knowledge base inside the source code repository.
 
 The design of this structure has the following key goals:
 
-- **Mechanical** - Agents are the main actors reading and writing the knowledge base.
+- **Mechanical** - Encourages agents to read/write the knowledge base as main actors.
 - **Generic** - Benefits any agentic workflow, no matter the editor or platform.
 - **Distilled** - Avoids the use of verbose task or plan logs that pollute the context window.
-- **Hierarchical** - Avoids excessive information in a single place that also pollutes the context window.
-- **Human** - Information is readily available and reviewable in a friendly format.
+- **Hierarchical** - Takes information closer to its context, avoids bloat in a single place.
+- **Human** - Preserves information readily available and reviewable in a friendly format.
 
 
-# Rules
+## Rules
 
 The document you are reading is an introduction for you the human, not for the agent.
 
@@ -20,7 +22,7 @@ The basic idea is simple: the `AGENTS.md` file is an index into information that
 This approach is in contrast to other techniques, such as persisting plans ("specs") or logs, which will languish and become out of date due to their historical nature.
 
 
-# Adoption
+## Adoption
 
 To adopt these rules, simply:
 
@@ -29,7 +31,7 @@ To adopt these rules, simply:
 3. Encourage agents to read and write content into the knowledge base.
 
 
-# Updating
+## Updating
 
 To update the rules:
 
@@ -38,6 +40,6 @@ To update the rules:
 3. Commit all the changes at once.
 
 
-# Contact
+## Contact
 
 - Gustavo Niemeyer (niemeyer)
